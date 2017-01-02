@@ -4,7 +4,7 @@
 //
 //  Created by Fabio Quintanilha on 1/2/17.
 //  Copyright © 2017 Studio. All rights reserved.
-//
+
 
 import UIKit
 
@@ -12,12 +12,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     
     @IBOutlet weak var label: UILabel!
-
     @IBOutlet weak var pickerView: UIPickerView!
     
+    
+    
     // We shold create the array with all itensthat will show in the pickerview
-    
-    
     let foods = ["Apples", "Bananas", "Corn", "Beans", "Tomatoes"]
     
     
